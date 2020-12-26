@@ -102,13 +102,13 @@
       </transition-group>
       <!-- .cards -->
     </div>
-    <div class="debug">
+    <!-- <div class="debug">
       <pre><code>DrugSearch: {{ drugSearch }}</code></pre>
       <pre><code>Filter Classes: {{ filters.classes }}</code></pre>
       <pre><code>Filter Cost: {{ filters.cost }}</code></pre>
       <pre><code>Active Filter Conditions: {{ activeFilters }}</code></pre>
       <pre><code>Info Display: {{ infoDisplay }}</code></pre>
-    </div>
+    </div> -->
 
     <transition name="modal">
       <section v-if="modal" class="modal" @click="modal = false">
